@@ -282,6 +282,6 @@ bool empty(Sinh_Vien **head) {
    - `else { printf("danh sach co gia tri\n"); }`
    - Nếu danh sách không rỗng, hàm sẽ in ra thông báo "danh sach co gia tri".
 
-
+-- Đã check
 
 
