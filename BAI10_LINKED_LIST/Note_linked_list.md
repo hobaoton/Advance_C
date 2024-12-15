@@ -264,7 +264,7 @@ void delete_list(Sinh_Vien **head, int position) {
 ```c
 bool empty(Sinh_Vien **head) {
     if (*head == NULL) {
-        printf("danh sach rong\n");
+        printf("danh sach rong\n")
         return true;
     } else {
         printf("danh sach co gia tri\n");
@@ -282,6 +282,6 @@ bool empty(Sinh_Vien **head) {
    - `else { printf("danh sach co gia tri\n"); }`
    - Nếu danh sách không rỗng, hàm sẽ in ra thông báo "danh sach co gia tri".
 
--- Đã check
+
 
 
