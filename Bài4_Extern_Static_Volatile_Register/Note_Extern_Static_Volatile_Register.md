@@ -250,6 +250,6 @@ int main() {
 Trong ví dụ trên, biến `i` được khai báo là `register`, yêu cầu trình biên dịch lưu trữ biến này trong một thanh ghi của CPU để tăng tốc độ truy cập.
 
 ### 4.3 Sử dụng `register`
-- **Vòng lặp**: Khi bạn có một biến được sử dụng nhiều lần trong một vòng lặp, việc khai báo biến đó là `register` có thể giúp tăng hiệu suất.
+- **Vòng lặp**: Khi có một biến được sử dụng nhiều lần trong một vòng lặp, việc khai báo biến đó là `register` có thể giúp tăng hiệu suất.
 - **Biến tạm thời**: Các biến tạm thời được sử dụng trong các phép tính toán học hoặc logic phức tạp có thể được khai báo là `register` để tăng tốc độ xử lý.
 
